@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "111295838161",
+    "project_id": "ucademy-d6f85",
+    "storage_bucket": "ucademy-d6f85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111295838161:android:832e7e7e1dd802216112f0",
+        "android_client_info": {
+          "package_name": "com.example.ucabdemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "111295838161-4vse1ui1gs06tjlloamlmdtcgb8bumqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucabdemy",
+            "certificate_hash": "513ed585199a27210627e7da303583e474cba684"
+          }
+        },
+        {
+          "client_id": "111295838161-3ddivlkrr58f9koo80c3npakljaee06a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBelSBvh97NVnn19RpJHM1_6LtNCM1h_cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "111295838161-3ddivlkrr58f9koo80c3npakljaee06a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
