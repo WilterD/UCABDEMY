@@ -190,13 +190,17 @@ class _HomeStudentsState extends State<HomeStudents> {
 
         if(snapshotStudents.data!.docs.isEmpty) return Container();
         Map<String,dynamic> dataUser = snapshotStudents.data!.docs[0].data() as Map<String,dynamic>;
+        String displayName = '';
+        if(userProvider!.userFirebase!.displayName != null){
+          displayName = userProvider!.userFirebase!.displayName!;
+        }
 
         return Column(
           children: [
             Container(
               width: sizeW,
               margin: const EdgeInsets.only(top: 10,left: 10),
-              child: Text(userProvider!.userFirebase!.displayName!,style: UcademyStyles().stylePrimary(size: sizeH * 0.03)),
+              child: Text(displayName,style: UcademyStyles().stylePrimary(size: sizeH * 0.03)),
             ),
             Expanded(
               child: viewSubjects(dataUser['listSubjects']),

@@ -75,7 +75,7 @@ class _AddSubjectsForStudentState extends State<AddSubjectsForStudent> {
       child: Scaffold(
         appBar: appBarWidget(
           sizeH: sizeH,
-          title: 'PROFESOR',
+          title: 'MIS MATERIAS',
           onTap: ()=>Navigator.of(context).pop(),
         ),
         backgroundColor: UcabdemyColors.primary_5,

@@ -36,7 +36,7 @@ Future<bool> alertClosetSession(BuildContext context) async{
   return res;
 }
 
-Future<bool> alertDeleteVideo(BuildContext context) async{
+Future<bool?> alertDeleteVideo(BuildContext context) async{
   Size size = MediaQuery.of(context).size;
   bool res = await showDialog(
       context: context,
